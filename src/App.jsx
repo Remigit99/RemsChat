@@ -1,8 +1,9 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import './App.scss'
-import Register from './Pages/Register'
-import Login from './Pages/Login'
+import Home from './Pages/Home'
+// import Register from './Pages/Register'
+// import Login from './Pages/Login'
 
 function App() {
 
@@ -12,8 +13,10 @@ function App() {
       <div>
         {/* <h2>Welcome to Remchat</h2> */}
         <Routes>
-          <Route path='/' element={<Register />} />
-          <Route path='login' element={<Login />} />
+          {/* <Route path='/' element={<Register />} />
+          <Route path='login' element={<Login />} /> */}
+          <Route path='/home' element={<Home />} />
+
 
         </Routes>
 

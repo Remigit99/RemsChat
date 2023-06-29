@@ -2,8 +2,10 @@
 
 const Search = () => {
     return (
-        <div>Search</div>
+        <div className="search__box">
+            <input type="search" name="" id="" placeholder="Search a user" />
+        </div>
     )
 }
 
-export default Search
+export default Search;
